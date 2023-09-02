@@ -6,6 +6,6 @@ declarations: [],
 
 imports: [CommonModule],
 // share things from this shared module with other components
-exports: []
+exports: [CommonModule]
 })
 export class SharedModule { }
