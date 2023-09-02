@@ -7,3 +7,27 @@ main div h1 {
   margin: 0;
   padding: 20px;
 }
+
+.general_button {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-size: inherit;
+  height: 10px;
+  justify-content: center;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.general_button:hover {
+  color: #666;
+  background-color: #f2f2f2;
+}

@@ -8,7 +8,7 @@ import {faHouse, faList} from '@fortawesome/free-solid-svg-icons'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Studio Info';
+  title = 'StudioInfo';
   faHouse = faHouse
   faList = faList
 }
