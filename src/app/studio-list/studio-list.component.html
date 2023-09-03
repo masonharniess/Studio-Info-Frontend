@@ -15,13 +15,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Warner Bros</td>
-            <td>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec
-            </td>
-            <td>1932</td>
+          <tr *ngFor="let studio of studios">
+            <td>{{studio.id}}</td>
+            <td>{{studio.name}}</td>
+            <td>{{studio.description}}</td>
+            <td>{{studio.createdDate}}</td>
           </tr>
         </tbody>
       </table>
