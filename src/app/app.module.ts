@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -19,8 +20,9 @@ import { AppRoutingModule } from './routing/app-routing.module';
   // extend this module by importing capabilities of other modules
   imports: [
     BrowserModule,
+    HttpClientModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   // register services (old practice — use providedin property of the service itself)
   providers: [],

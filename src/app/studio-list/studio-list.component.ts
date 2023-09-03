@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./studio-list.component.css']
 })
 export class StudioListComponent {
-
+  listTitle = 'Studios'
 }

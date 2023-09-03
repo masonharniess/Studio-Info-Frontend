@@ -1,0 +1,27 @@
+main {
+  padding: 10px;
+}
+
+.main_content_container {
+  /* outline: 1px solid rgb(180, 177, 177); */
+  /* border-radius: 5px; */
+  padding: 10px;
+}
+
+.main_title_container h1 {
+  padding: 0 5px;
+  margin: 0;
+}
+
+.studio_table {
+  width: 100%;
+}
+
+.studio_table th {
+  padding-right: 15px;
+}
+
+.studio_table tr {
+  text-align: left;
+  vertical-align: top;
+}
